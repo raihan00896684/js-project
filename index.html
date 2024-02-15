@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header id="home" class="text-center items-center min-h-screen bg-blue-500 py-96 ">
+<!-- Enter game -->
+<h1 class=" min-h-full text-6xl text-orange-400">Its a New Game </h1>
+<p class=" text-white text-5xl ">
+Are you ready  to Play
+</p>
+<button onclick="start()" class="btn bg-violet-300  text-4xl rounded-2xl ">Yes</button>
+
+    </header>
+    <main class="">
+<!-- Start you can play -->
+
+<div id="animal" class="animal-container text-center py-5 bg-orange-300 hidden">
+    <p class="text-6xl text-center mt-2 mb-2 text-white"> The game</p>
+    <img id="tiger" class="mx-auto mb-5"  src="image/download (1).jpg" alt="">
+<input id="input"  type="text" name="" id="">
+    <img id="cat" class="mx-auto hidden" src="image/download (2).jpg"alt="">
+
+    <img  id="bird" class="mx-auto mt-5 hidden" src="image/download.jpg" >
+   
+<div class="flex justify-between">
+    <button class="btn btn-square flex">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+      point  
+    <span>0</span>
+    </button>
+      <button class="btn btn-square btn-outline flex ">
+        
+    
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+        Life 
+        <span>3</span>
+    </button>
+        </main>
+</div>
+
+    <footer>
+<!-- score -->
+    </footer>
+   <script src="script/script.js"></script>
+</body>
+</html>
